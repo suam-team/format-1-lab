@@ -15,7 +15,7 @@ void flag()
     puts("[ERROR] Cannot open the flag file!\n");
     exit(1);
   }
-  fgets(flag, BUFFER_SIZE, fptr);
+  fgets(flag, BUFFER_SIZE - 1, fptr);
   printf("You are authorized, here's the flag: %s\n", flag);
   fclose(fptr);
   exit(0);
@@ -37,14 +37,14 @@ void pass_check()
       exit(1);
     }
 
-    fgets(authorized_password, BUFFER_SIZE, fp);
+    fgets(authorized_password, BUFFER_SIZE - 1, fp);
     fclose(fp);
 
     puts("***** AUTHORIZED ACCESS ONLY *****\n");
     puts("Please enter your password: ");
 
     // Receive password input
-    fgets(password, BUFFER_SIZE, stdin);
+    fgets(password, BUFFER_SIZE - 1, stdin);
 
     // Check if the password is correct
     if (strncmp(password, authorized_password, strlen(authorized_password)) != 0)
