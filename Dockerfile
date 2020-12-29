@@ -1,7 +1,6 @@
 FROM debian:stable-slim
-RUN dpkg --add-architecture i386 && \
-    apt-get update && \
-    apt install -y wget build-essential unzip libc6:i386 gcc gcc-multilib && \
+RUN apt-get update && \
+    apt install -y wget build-essential unzip gcc && \
     rm -rf /var/lib/apt/lists/* && \
     useradd -d /home/ctf/ -m -p ctf -s /bin/bash ctf && \ 
     echo "ctf:ctf" | chpasswd
