@@ -1,10 +1,10 @@
-// gcc chall.c -m32 -s -o chall
+// gcc chall.c -o chall
 
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 
-#define BUFFER_SIZE 200
+#define BUFFER_SIZE 240
 
 void flag()
 {

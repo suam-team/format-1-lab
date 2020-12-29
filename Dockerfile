@@ -10,7 +10,7 @@ WORKDIR /home/ctf
 
 COPY ["chall.c", "start.sh", "chall.sh", "./"]
 
-RUN gcc chall.c -m32 -s -o chall
+RUN gcc chall.c -o chall
 
 RUN wget https://github.com/joewalnes/websocketd/releases/download/v0.3.0/websocketd-0.3.0-linux_amd64.zip && \
     unzip websocketd-0.3.0-linux_amd64.zip && \
