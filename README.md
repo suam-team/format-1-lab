@@ -52,7 +52,7 @@ Hello World !
 Make sure you have Python 3.7 [installed locally](http://install.python-guide.org). To push to Heroku, you'll need to install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
 
 ```sh
-$ git clone https://github.com/ErbaZZ/format-1-lab.git
+$ git clone https://github.com/suam-team/format-1-lab.git
 $ cd format-1-lab
 $ docker build -t format-1-lab .
 $ docker run -d --rm -p 1337:1337 -e PORT=1337 -e FLAG=flag{example_flag} -e PASS=example_password format-1-lab
