@@ -1,7 +1,7 @@
 {
-    "name": "Form@_1",
+    "name": "Form@ 1",
     "description": "Introduction to format string attack lab",
-    "repository": "https://github.com/ErbaZZ/format-1-lab",
+    "repository": "https://github.com/suam-team/format-1-lab",
     "logo": "https://suam.wtf/favicon-32x32.png",
     "keywords": ["hacking", "lab", "pwn"],
     "stack": "container"

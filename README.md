@@ -4,7 +4,7 @@ Introduction to format string attack lab
 
 ## Let's Play
 
-Review the source code [chall.c](/chall.c) and find the bug. Please hack this lab on your own environment, then get the real flag at `ws://format-1.herokuapp.com`.
+Review the source code [chall.c](/chall.c) and find the bug. Please hack this lab on your own environment, then get the real flag at `ws://format-1-lab.herokuapp.com`.
 
 ## WebSocket PWN
 

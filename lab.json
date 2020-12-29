@@ -1,7 +1,7 @@
 {
-    "name": "Form@_1",
+    "name": "Form@ 1",
     "category": "PWN",
     "author": "ErbaZZ",
-    "flag": "",
+    "flag": "9adfb1b4b170f6bdfda08260a723a9ef,053bb00fff87b326ff04f6f2f2fbd41c,aab0a0605f2973f9281c916e4b7cc674,a2a7bbfb10cc803a9329bdcc1f251478c436f9c766beaf28935b6d8bd0ea2063d6f3f957c260a74bb591e83d0401e532412396a0a620181ee5dff6b3,6c335bfbcd3338533c8a8f0c771dbe1a",
     "detail": "Introduction to format string attack lab"
 }
